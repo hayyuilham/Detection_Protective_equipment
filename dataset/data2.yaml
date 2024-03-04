@@ -1,0 +1,15 @@
+names:
+- glove
+- goggles
+- helmet
+- mask
+- no_glove
+- no_goggles
+- no_helmet
+- no_mask
+- no_shoes
+- shoes
+nc: 10
+test: /content/drive/MyDrive/Sistem_Pengenalan_Pelindung/dataset/test/images
+train: /content/drive/MyDrive/Sistem_Pengenalan_Pelindung/dataset/train/images
+val: /content/drive/MyDrive/Sistem_Pengenalan_Pelindung/dataset/valid/images
