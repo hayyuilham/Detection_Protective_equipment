@@ -19,6 +19,7 @@ Berikut merupakan referensi yang digunakan:
 <https://www.sciencedirect.com/science/article/pii/S0925753522000297?fr=RR-2&ref=pdf_download&rr=85d6475b6cff3e29>
 
 Berikut contoh beberapa gambar data train:
+
 ![img1](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/005341_jpg.rf.5852eef9d72488917b88a16c577ec67c.jpg)
 
 ![img2](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/PP02img561_jpg.rf.1f202938a336e4aa0665967070db801e.jpg)
@@ -37,9 +38,13 @@ Pada percobaan ini, saya menggunakan Yolo, dengan pertimbangan jumlah data, dan 
   Cara menjalankan streamlit web app:
 	- jalankan/ run semua box code pada demo.ipynb
 	- output dari script "!streamlit run app.py & npx localtunnel --port 8501" menampilkan link untuk mengakses web base dari demo. Gunakan ip external url sebagai password. Seperti berikut:
+ - 
 	![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/unlted1.png)
+
 	- Aplikasi menyediakan dua option objek yang dapat di deteksi yaitu, gambar dan video. Sidebar kiri merupakan laman konfigurasi, dan sisi kanan merupakan laman display output. Contoh:
+ - 
 	![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/tampilan_demo2.png)
+
 	- Pada konfigurasi sudah disediakan default foto dan video, untuk melakukan pemrosesan deteksi secara langsung.
 	- Setiap perubahan yang dilakukan pada script code, perlu dilakukan run pada localtunnel kembali.
 
