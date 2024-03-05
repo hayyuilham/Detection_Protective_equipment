@@ -29,10 +29,17 @@ Berikut contoh beberapa gambar data train:
 Pengembangan model yang baik dalam proses deteksi objek tidak hanya pada aspek data, tetapi ketepatan metode yang digunakan cukup berperan.
 Berdasarkan beberapa artikel/paper yang saya baca, terdapat dua metode yang cukup optimal, yaitu Faster RCNN dan YOLO. Faster RCNN cukup optimal dalam mengenali object pada jarak yang cukup jauh seperti hal nya pada rekaman cctv, dan powerful pada training dataset jumlah besar. Disisi lain, Yolo yang terus dikembangkan hingga saat ini, cukup optimal dalam hal pemrossesan, pada beberapa kasus metode Yolo memiliki akurasi yang lebih baik pada dataset yang minim.
 Pada percobaan ini, saya menggunakan Yolo, dengan pertimbangan jumlah data, dan efisien waktu. Saya tidak menggunakan metode Faster RCNN karena terkendala pada processor yang tidak memadai, sehingga proses train data berjalan lama.
+Dataset yang saya memiliki belum cuku bersih sehingga saya gunakan proses normalisasi terhadap data, agar data bersih dan seimbang dalam proses pembelajaran model. Berdasarkan hasil evaluasi model yang dikembankan bekerja dengan baik, terkait penjelasan dan visualisasi lebih detail tertampil pada dokumen colab paling akhir.
+Evaluasi dan hasil dari percobaan saya lampirkan dalam folder runs. salah satu contoh hasil prediksi sebagai berikut:
+
+![img3]([https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/unlted1.png](https://github.com/hayyuilham/Detection_Protective_equipment/blob/50530cce6ea93c3f86d8a2468c4d515106358af2/image/result1.png))
+
 
 #Requirement
 
 - Code editor : Google colab
+- Detection_protective_equipments_contruction.ipynb merupakan dokumen utama dalam proses pembuatan dan ujicoba model.
+- Demo.ipynb merupakan dokumen untuk menjalankan sistem deteksi berbasis web
 - Instalasi beberapa library pendukung: ultralyticsplus, ultralytics, dan streamlit
 - Demo menggunakan library Streamlit. 
   Cara menjalankan streamlit web app:
