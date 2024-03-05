@@ -32,7 +32,7 @@ Pada percobaan ini, saya menggunakan Yolo, dengan pertimbangan jumlah data, dan 
 Dataset yang saya memiliki belum cuku bersih sehingga saya gunakan proses normalisasi terhadap data, agar data bersih dan seimbang dalam proses pembelajaran model. Berdasarkan hasil evaluasi model yang dikembankan bekerja dengan baik, terkait penjelasan dan visualisasi lebih detail tertampil pada dokumen colab paling akhir.
 Evaluasi dan hasil dari percobaan saya lampirkan dalam folder runs. salah satu contoh hasil prediksi sebagai berikut:
 
-![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/unlted1.png)
+![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/109c22df1114b7d7634f5451cbea9f72df4cc1fe/image/result1.png)
 
 
 #Requirement
