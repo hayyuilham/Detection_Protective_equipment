@@ -43,7 +43,7 @@ Evaluasi dan hasil dari percobaan saya lampirkan dalam folder runs. salah satu c
 - Instalasi beberapa library pendukung: ultralyticsplus, ultralytics, dan streamlit
 - Demo menggunakan library Streamlit. 
   Cara menjalankan streamlit web app:
-	- jalankan/ run semua box code pada demo.ipynb
+	- jalankan/ run semua box code pada demo.ipynb. Sesuaikan path detection model, dengan penyimpanan best.pt yang telah saya sediakan.
 	- output dari script "!streamlit run app.py & npx localtunnel --port 8501" menampilkan link untuk mengakses web base dari demo. Gunakan ip external url sebagai password. Seperti berikut:
  - 
 	![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/6208a4e61f319b8479cfc6935307b081c43ac299/image/app1.JPG)
