@@ -48,10 +48,7 @@ Evaluasi dan hasil dari percobaan saya lampirkan dalam folder runs. salah satu c
  - 
 	![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/6208a4e61f319b8479cfc6935307b081c43ac299/image/app1.JPG)
 
-	- Aplikasi menyediakan dua option objek yang dapat di deteksi yaitu, gambar dan video. Sidebar kiri merupakan laman konfigurasi, dan sisi kanan merupakan laman display output. Contoh:
- - 
-	![img3](https://github.com/hayyuilham/Detection_Protective_equipment/blob/e217d64535417db2948fca5d3f00ec6a6d22c261/image/tampilan_demo2.png)
-
+	- Aplikasi menyediakan dua option objek yang dapat di deteksi yaitu, gambar dan video. Sidebar kiri merupakan laman konfigurasi, dan sisi kanan merupakan laman display output.
 	- Pada konfigurasi sudah disediakan default foto dan video, untuk melakukan pemrosesan deteksi secara langsung.
 	- Setiap perubahan yang dilakukan pada script code, perlu dilakukan run pada localtunnel kembali.
 
